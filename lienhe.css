@@ -1,0 +1,95 @@
+.cards-lienhe {
+    padding: 70px 0;
+}
+
+.card-lienhe {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 1.25rem rgb(108 118 134 / 10%);
+    border-radius: 10px;
+    padding: 30px 20px;
+    transition: .4s;
+}
+
+.card-lienhe:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 1.25rem rgb(108 118 134 / 30%);
+}
+
+.fa-phone {
+    margin-left: 0;
+}
+
+.card-lienhe i {
+    font-size: 26px;
+    margin-right: 14px;
+    border: 2px dashed #59ca6d;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #59ca6d;
+    transition: .4s;
+}
+
+.card-lienhe:hover i {
+    background-color: #59ca6d;
+    color: white;
+}
+
+.cards-lienhe .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* THONG TIN LIEN HÊ */
+.thongtinlienhe {
+    margin-bottom: 50px;
+}
+
+.thongtinlienhe .container {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    gap: 30px;
+}
+
+.inputgroup {
+    display: flex;
+    gap: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 25px;
+    border: 1px solid gainsboro;
+}
+textarea{
+    resize: none;
+}
+.btn-send {
+    padding: 12px 30px;
+    background-color: #59ca6d;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-send:hover {
+    opacity: 0.8;
+}
+
+form {
+    padding: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 0 0 1.25rem rgb(108 118 134 / 30%);
+}
+.bando{
+    height: 450px;
+}
+ 

@@ -1,0 +1,64 @@
+/* DỤNG CỤ LAU DỌN */
+.tool {
+    padding: 70px 0;
+    background-color: #ececec;
+}
+
+.tool .tieu-de {
+    text-align: center;
+}
+
+.tool .tieu-de span {
+    color: #59ca6d;
+}
+
+.tool .tieu-de h1 {
+    margin: 15px 0;
+    font-size: 34px;
+}
+
+.tool .tieu-de p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.cac-san-pham-tool{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+.san-pham-tool{
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    transition: .5s;
+}
+.san-pham-tool img{ 
+    transition: .5s;
+}
+.san-pham-tool:hover img{ 
+    transform: translateY(-8px)
+}
+.san-pham-tool:hover{
+    box-shadow: 0 0 10px black;
+}
+.san-pham-tool a{
+    text-decoration: none;
+    color: black;
+}
+.gia-san-pham{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.gia-san-pham button{
+    background-color: #59ca6d;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+}

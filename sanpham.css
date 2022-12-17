@@ -1,0 +1,33 @@
+.cac-san-pham-tool{
+    grid-template-columns: repeat(3,1fr);
+}
+.san-pham-tool{
+    border: 2px solid gainsboro;
+}
+/* 
+.danh-sach-sanpham .container{
+    display: flex;
+}
+.filter{
+    width: 20%;
+}
+.cac-san-pham-tool{
+    width: 80%
+} */
+
+.danh-sach-sanpham .container{
+    display: grid;
+    grid-template-columns: 0.3fr 0.9fr;
+}
+
+.danh-sach-sanpham{
+    margin-bottom: 50px;
+}
+.filter label{
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.filter h3{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}

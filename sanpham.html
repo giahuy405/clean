@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <link rel="icon" href="https://zozo.vn/public/theme/touched/images/logo/favicon.png" type="image/x-icon" />
+    <!-- GOOGLE FONT -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="./scrolltotop.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./dangki-section.css">
+    <link rel="stylesheet" href="./tool.css">
+    <link rel="stylesheet" href="./sanpham.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div>
+                    <i class="fa-regular fa-clock"></i>
+                    <span> Mở cửa 8:00-17:30: Thứ 2 - Thứ 7</span>
+                </div>
+                <div>
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>phanvanninh@caothang.edu.vn</span>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>0123456789</span>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="logo">
+                    <img src="./img/logo-green.png" alt="">
+                </div>
+                <nav>
+                    <a href="./index.html">TRANG CHỦ</a>
+                    <a href="#">GIỚI THIỆU</a>
+                    <a href="./sanpham.html" class="active">SẢN PHẨM</a>
+                    <a href="#">TIN TỨC</a>
+                    <a href="./lienhe.html">LIÊN HỆ</a>
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button><i class="fa-solid fa-user"></i></button>
+                    <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <section class="danh-sach-sanpham">
+        <div class="container">
+            <div class="filter">
+                <div>
+                    <h3>Giá</h3>
+                    <input type="radio" id="all" name="price">
+                    <label for="all">Tất cả</label>
+                    <br> 
+                    <input type="radio" id="under100" name="price">
+                    <label for="under100">Dưới 100k</label>
+                    <br>
+                    <input type="radio" id="100to200" name="price">
+                    <label for="100to200">Từ 100k đến 200k</label>
+                    <br>
+                    <input type="radio" id="200to500" name="price">
+                    <label for="200to500">Từ 200k đến 500k</label>
+                    <br>
+                    <input type="radio" id="500to1m" name="price">
+                    <label for="500to1m">Từ 500k đến 1 triệu</label>
+                    <br>
+                    <input type="radio" id="1m-upper" name="price">
+                    <label for="1m-upper">Từ 1 triệu trở lên</label>
+                    <br>
+                </div>
+                <div>
+                    <h3>Thương hiệu</h3>
+                    <input type="checkbox" id="OEM">
+                    <label for="OEM">OEM</label>
+                    <br>
+                    <input type="checkbox" id="lock">
+                    <label for="lock">Lock&Lock</label>
+                    <br>
+                    <input type="checkbox" id="Kachi">
+                    <label for="Kachi">Kachi</label>
+                    <br>
+                    <input type="checkbox" id="Bosch">
+                    <label for="Bosch">Bosch</label>
+                    <br>
+                    <input type="checkbox" id="Vati">
+                    <label for="Vati">Vati</label>
+                    <br>
+                    <input type="checkbox" id="Karcher">
+                    <label for="Karcher">Karcher</label>
+                    <br>
+                </div>
+                <div>
+                    <h3>Kích thước</h3>
+                    <input type="checkbox" id="big">
+                    <label for="big">Lớn</label>
+                    <br>
+                    <input type="checkbox" id="medium">
+                    <label for="medium">Vừa</label>
+                    <br>
+                    <input type="checkbox" id="small">
+                    <label for="small">Nhỏ</label>
+                    <br>
+                </div>
+            </div>
+            <div class="cac-san-pham-tool">
+                <div class="san-pham-tool">
+                    <a href="#">
+                        <img src="https://cleanza.exdomain.net/image/cache/catalog/cleanza/imageresizer10b83b382ba44417f8-480x480.jpg"
+                            alt="">
+                        <h4>Máy mày đá cực mạnh Karcher</h4>
+                    </a>
+                    <div class="gia-san-pham">
+                        <span>130.000đ</span>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                </div>
+                <div class="san-pham-tool">
+                    <a href="#">
+                        <img src="https://cleanza.exdomain.net/image/cache/catalog/cleanza/a130a57aa4feb420df263b93bbb123e1-480x480.jpg"
+                            alt="">
+                        <h4>Combo 3 tấm lót gỗ</h4>
+                    </a>
+                    <div class="gia-san-pham">
+                        <span>130.000đ</span>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                </div>
+                <div class="san-pham-tool">
+                    <a href="#">
+                        <img src="https://cleanza.exdomain.net/image/cache/catalog/cleanza/833302ae556eeed25e6e49fb18f72d29-480x480.jpg"
+                            alt="">
+                        <h4>Combo 5 cây bông lau nhà</h4>
+                    </a>
+                    <div class="gia-san-pham">
+                        <span>130.000đ</span>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                </div>
+                <div class="san-pham-tool">
+                    <a href="#">
+                        <img src="https://cleanza.exdomain.net/image/cache/catalog/cleanza/etm498-den-1-u2566-d20160920-t094501-260825-1-480x480.jpg"
+                            alt="">
+                        <h4>Bộ lau nhà mini thép không gỉ</h4>
+                    </a>
+                    <div class="gia-san-pham">
+                        <span>330.000đ</span>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                </div>
+                <div class="san-pham-tool">
+                    <a href="#">
+                        <img src="https://cleanza.exdomain.net/image/cache/catalog/cleanza/00900d636dcc6a9b1459a8bfe7ffdec0-480x480.jpg"
+                            alt="">
+                        <h4>Bộ lau nhà đa năng bằng nhựa</h4>
+                    </a>
+                    <div class="gia-san-pham">
+                        <span>130.000đ</span>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                </div>
+                <div class="san-pham-tool">
+                    <a href="#">
+                        <img src="https://cleanza.exdomain.net/image/cache/catalog/cleanza/14048053854238-480x480.jpg"
+                            alt="">
+                        <h4>Máy khoan Bosch</h4>
+                    </a>
+                    <div class="gia-san-pham">
+                        <span>990.000đ</span>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                </div>
+                <div class="san-pham-tool">
+                    <a href="#">
+                        <img src="https://cleanza.exdomain.net/image/cache/catalog/cleanza/f9736f06e4724a0faa0544687c80dda3-480x480.jpg"
+                            alt="">
+                        <h4>Cây lau nhà bằng nhựa</h4>
+                    </a>
+                    <div class="gia-san-pham">
+                        <span>100.000đ</span>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                </div>
+               
+                <div class="san-pham-tool">
+                    <a href="#">
+                        <img src="https://cleanza.exdomain.net/image/cache/catalog/cleanza/20ad7c2198376b5393f62ea905854595-480x480.jpg"
+                            alt="">
+                        <h4>Máy xịn rửa xe cao cấp</h4>
+                    </a>
+                    <div class="gia-san-pham">
+                        <span>5.550.000đ</span>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                </div>
+                <div class="san-pham-tool">
+                    <a href="#">
+                        <img src="https://cleanza.exdomain.net/image/cache/catalog/cleanza/5fd34a8ddff426eaf556510d76927036-480x480.jpg"
+                            alt="">
+                        <h4>Máy phun thủy lực mạnh</h4>
+                    </a>
+                    <div class="gia-san-pham">
+                        <span>1.990.000đ</span>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                </div>
+                <div class="san-pham-tool">
+                    <a href="#">
+                        <img src="https://cleanza.exdomain.net/image/cache/catalog/cleanza/imageresizer1936c995d02f345e99-480x480.jpg"
+                            alt="">
+                        <h4>Bộ nén khí không dây</h4>
+                    </a>
+                    <div class="gia-san-pham">
+                        <span>3.990.000đ</span>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                </div>
+                <div class="san-pham-tool">
+                    <a href="#">
+                        <img src="https://cleanza.exdomain.net/image/cache/catalog/cleanza/9609814474782-480x480.jpg"
+                            alt="">
+                        <h4>Máy khoan Kaichi</h4>
+                    </a>
+                    <div class="gia-san-pham">
+                        <span>5.990.000đ</span>
+                        <button><i class="fa-solid fa-cart-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+
+    <section class="dang-ki">
+        <div class="dang-ki-inside">
+            <h2>ĐĂNG KÍ NHẬN TIN</h2>
+            <p>Nhận thông tin sản phẩm mới nhất, tin khuyến mãi và nhiều hơn nữa.</p>
+            <div class="inputgroup">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Tên">
+            </div>
+            <button>ĐĂNG KÍ</button>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-item">
+                <img src="./img/logo-green.png" alt="">
+                <ul>
+                    <li>Địa chỉ: A12, Đinh Tiên Hoàng, Q. Hoàn Kiếm, Hà Nội</li>
+                    <li>Điện thoại: 0123456789</li>
+                    <li>Email: phanvanninh@caothang.edu.vn</li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h3>Thông tin công ty</h3>
+                <ul>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Thông tin vận chuyển</a></li>
+                    <li><a href="#">Quy định và Điều khoản</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h3>Hỗ trợ khách hàng</h3>
+                <ul>
+                    <li><a href="#">Thông tin vận chuyển</a></li>
+                    <li><a href="#">Câu hỏi thường gặp</a></li>
+                    <li><a href="#">Quy định và Điều khoản</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h3>Dịch vụ khách hàng</h3>
+                <ul>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Câu hỏi thường gặp</a></li>
+                    <li><a href="#">Quy định và Điều khoản</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="scrollToTop "><i class="fa-solid fa-arrow-up"></i></a>
+
+
+    <script>
+        window.onscroll = function () {
+            if (document.documentElement.scrollTop > 300)
+                document.querySelector('.scrollToTop').classList.add('active');
+            else
+                document.querySelector('.scrollToTop').classList.remove('active');
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+
+/*  ĐANG KÍ */
+.dang-ki{
+    background-color: #59ca6d;
+    padding: 40px 0;
+    text-align: center;
+}
+.dang-ki p{
+    margin: 8px 0;
+}
+
+.dang-ki-inside{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.dang-ki .inputgroup{
+    display: flex;
+    gap: 15px;
+}
+.dang-ki input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    background-color: rgba(255,255,255,0.2);
+}
+.dang-ki input::placeholder{
+    color: white;
+}
+.dang-ki input:focus{
+    outline: 0;
+}
+.dang-ki button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+}
+.dang-ki button:hover{
+    background-color: #4cb15f;
+}

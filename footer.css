@@ -1,0 +1,28 @@
+/* FOOTER */
+footer{
+    background-color: #222222;
+    padding: 70px 0;
+}
+footer .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    color: white;
+}
+footer img{
+    width: 150px;
+}
+.footer-item h3{
+    margin-bottom: 30px;
+}
+.footer-item ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.footer-item a{
+    text-decoration: none;
+    color: gainsboro;
+}
+.footer-item a:hover{
+   color: #59ca6d;
+}
